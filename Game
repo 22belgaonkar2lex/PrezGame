@@ -1,0 +1,392 @@
+
+import java.util.Scanner;
+import java.lang.Math;
+
+class txt
+{
+  public static void main (String[]args)
+  {
+    Scanner scanner = new Scanner (System.in);
+     int money = 0 ;
+     int fame = 0 ; 
+     System.out.println("Would you like to play this game");
+     String play = scanner.nextLine();
+
+     if(play.toLowerCase().equals ("yes")){
+              System.out.
+      println ("You are running for President of the United States");
+      System.out.println ("What is your name");
+    String name = scanner.nextLine ();
+      System.out.println (name + " Your possible options are, A : Fundraising, B : Hold a rally, C : Post an ad");
+    String action = scanner.nextLine ();
+
+
+    if (action.equals ("A"))
+      {
+        money = money + (int) (Math.random () * 1000000 + 1);
+        System.out.println (name + " you have made " + money);
+      }
+    else if (action.equals("B")){
+        int test = money - 200000 ;
+        if (test > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1); 
+            System.out.println("you have " + fame + "fame");
+        }
+        if (test < 0 ) {
+            System.out.println("Your broke go get some money then we talk");
+
+        }
+
+
+    }
+    else if (action.equals("C")){
+        int adtest = money - 300000 ;
+        if( adtest > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1); 
+
+        }
+        if(adtest < 0){
+            System.out.println("Your broke go get some money then we talk") ;
+        }
+
+    }
+
+    else{
+        
+        System.out.println("You idiot you spent the day messing around, type real awnser next time") ; 
+    
+    }
+    
+    System.out.println( "Hope you had a good day, it is the next day ") ;
+
+    System.out.println(name + " Your possible options are, A : Fundraising, B : Hold a rally, C : Post an ad");
+    action = scanner.nextLine ();
+
+
+    if (action.equals ("A"))
+      {
+        
+        money = + (int) (Math.random () * 1000000 + 1);
+        System.out.println (name + " you have made " + money);
+      }
+    else if (action.equals("B")){
+        int testdaytwo = money - 200000 ;
+        if (testdaytwo > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1); 
+            System.out.println("you have " + fame + " fame") ;
+        }
+        if (testdaytwo < 0 ) {
+            System.out.println("You are broke go get some money then we talk") ;
+
+        }
+
+
+    }
+    else if (action.equals("C")){
+        int adtestdaytwo = money - 300000 ;
+        if( adtestdaytwo > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1); 
+
+        }
+        if(adtestdaytwo < 0){
+            System.out.println("Your broke go get some money then we talk") ;
+        }
+
+    }
+
+    else{
+        
+        System.out.println("You idiot you spent the day messing around, type real awnser next time") ;
+    
+    }
+    System.out.println (name + " Your possible options are, A : Fundraising, B : Hold a rally, C : Post an ad");
+    action = scanner.nextLine ();
+
+
+    if (action.equals ("A"))
+      {
+        money = money + (int) (Math.random () * 1000000 + 1);
+        System.out.println (name + " you have made " + money);
+      }
+    else if (action.equals("B")){
+        int testdaythree = money - 200000 ;
+        if (testdaythree > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1);    
+            System.out.println("you have " + fame + " fame");
+        }
+        if (testdaythree < 0 ) {
+            System.out.println("Your broke go get some money then we talk");
+
+        }
+
+
+    }
+    else if (action.equals("C")){
+        int adtestthree = money - 300000 ;
+        if( adtestthree > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1); 
+
+        }
+        if(adtestthree < 0){
+            System.out.println("Your broke go get some money then we talk") ;
+        }
+
+    }
+
+    else{
+        System.out.println("You idiot you spent the day messing around, type real awnser next time") ; 
+    
+    }
+      System.out.println (name + " Your possible options are, A : Fundraising, B : Hold a rally, C : Post an ad");
+    action = scanner.nextLine ();
+
+
+    if (action.equals ("A"))
+      {
+        money = money + (int) (Math.random () * 1000000 + 1);
+        System.out.println (name + " you have made " + money);
+      }
+    else if (action.equals("B")){
+        int testdayfour = money - 200000 ;
+        if (testdayfour > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1);
+            System.out.println("you have " + fame + " fame");
+        }
+        if (testdayfour < 0 ) {
+            System.out.println("Your broke go get some money then we talk");
+
+        }
+
+
+    }
+    else if (action.equals("C")){
+        int adtestfour = money - 300000 ;
+        if( adtestfour > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1); 
+
+        }
+        if(adtestfour < 0){
+            System.out.println("Your broke go get some money then we talk") ;
+        }
+
+    }
+
+    else{
+        
+        System.out.println("You idiot you spent the day messing around, type real awnser next time") ; 
+    
+    }
+     System.out.println (name + " Your possible options are, A : Fundraising, B : Hold a rally, C : Post an ad");
+    action = scanner.nextLine ();
+
+
+    if (action.equals ("A"))
+      {
+        money = money + (int) (Math.random () * 1000000 + 1);
+        System.out.println (name + " you have made " + money);
+      }
+    else if (action.equals("B")){
+        int testdayfive = money - 200000 ;
+        if (testdayfive > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1);
+            System.out.println("you have " + fame + " fame");
+        }
+        if (testdayfive < 0 ) {
+            System.out.println("Your broke go get some money then we talk");
+
+        }
+
+
+    }
+    else if (action.equals("C")){
+        int adtestsix = money - 300000 ;
+        if( adtestsix > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1); 
+
+        }
+        if(adtestsix < 0){
+            System.out.println("Your broke go get some money then we talk") ;
+        }
+
+    }
+
+    else{
+        
+        System.out.println("You idiot you spent the day messing around, type real awnser next time") ; 
+    
+    } System.out.println (name + " Your possible options are, A : Fundraising, B : Hold a rally, C : Post an ad");
+    action = scanner.nextLine ();
+
+
+    if (action.equals ("A"))
+      {
+        money = money + (int) (Math.random () * 1000000 + 1);
+        System.out.println (name + " you have made " + money);
+      }
+    else if (action.equals("B")){
+        int testdayseven = money - 200000 ;
+        if (testdayseven > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1);
+            System.out.println("you have " + fame + " fame");
+        }
+        if (testdayseven < 0 ) {
+            System.out.println("Your broke go get some money then we talk");
+
+        }
+
+
+    }
+    else if (action.equals("C")){
+        int adtestseven = money - 300000 ;
+        if( adtestseven > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1); 
+
+        }
+        if(adtestseven < 0){
+            System.out.println("Your broke go get some money then we talk") ;
+        }
+
+    }
+
+    else{
+        
+        System.out.println("You idiot you spent the day messing around, type real awnser next time") ; 
+    
+    } System.out.println (name + " Your possible options are, A : Fundraising, B : Hold a rally, C : Post an ad");
+    action = scanner.nextLine ();
+
+
+    if (action.equals ("A"))
+      {
+        money = money + (int) (Math.random () * 1000000 + 1);
+        System.out.println (name + " you have made " + money);
+      }
+    else if (action.equals("B")){
+        int testdayeight = money - 200000 ;
+        if (testdayeight > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1);
+            System.out.println("you have " + fame + " fame");
+        }
+        if (testdayeight < 0 ) {
+            System.out.println("Your broke go get some money then we talk");
+
+        }
+
+
+    }
+    else if (action.equals("C")){
+        int adtesteight = money - 300000 ;
+        if( adtesteight > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1); 
+
+        }
+        if(adtesteight < 0){
+            System.out.println("Your broke go get some money then we talk") ;
+        }
+
+    }
+
+    else{
+        
+        System.out.println("You idiot you spent the day messing around, type real awnser next time") ; 
+    
+    } System.out.println (name + " Your possible options are, A : Fundraising, B : Hold a rally, C : Post an ad");
+    action = scanner.nextLine ();
+
+
+    if (action.equals ("A"))
+      {
+        money = money + (int) (Math.random () * 1000000 + 1);
+        System.out.println (name + " you have made " + money);
+      }
+    else if (action.equals("B")){
+        int testdaynine = money - 200000 ;
+        if (testdaynine > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1);
+            System.out.println("you have " + fame + " fame");
+        }
+        if (testdaynine < 0 ) {
+            System.out.println("Your broke go get some money then we talk");
+
+        }
+
+
+    }
+    else if (action.equals("C")){
+        int adtestnine = money - 300000 ;
+        if( adtestnine > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1); 
+
+        }
+        if(adtestnine < 0){
+            System.out.println("Your broke go get some money then we talk") ;
+        }
+
+    }
+
+    else{
+        
+        System.out.println("You idiot you spent the day messing around, type real awnser next time") ; 
+    
+    } System.out.println (name + " Your possible options are, A : Fundraising, B : Hold a rally, C : Post an ad");
+    action = scanner.nextLine ();
+
+
+    if (action.equals ("A"))
+      {
+        money = money + (int) (Math.random () * 1000000 + 1);
+        System.out.println (name + " you have made " + money);
+      }
+    else if (action.equals("B")){
+        int testdayten = money - 200000 ;
+        if (testdayten > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1);
+            System.out.println("you have " + fame + " fame");
+        }
+        if (testdayten < 0 ) {
+            System.out.println("Your broke go get some money then we talk");
+
+        }
+
+
+    }
+    else if (action.equals("C")){
+        int adtestten = money - 300000 ;
+        if( adtestten > 0 ){
+            fame = fame + (int) (Math.random () * 15 + 1); 
+
+        }
+        if(adtestten < 0){
+            System.out.println("Your broke go get some money then we talk") ;
+        }
+
+    }
+
+    else{
+        
+        System.out.println("You idiot you spent the day messing around, type real awnser next time") ; 
+    
+    }
+    System.out.println(" game over ") ;
+    if(fame >=  (int) (Math.random () * 110 + 1)){
+        System.out.println("You are now president");
+    }
+
+     }
+     else if(play.toLowerCase().equals ("dictator")){
+           Scanner scanner = new Scanner (System.in);
+        System.out.println("You are now a dictator unfortunewtly, you lost the US elections as you killed most of the citzens and all of the government.");
+        System.out.println("Luckly Russian spies have take over and created 50 countries, you are supreme leader of new leningrad");
+        
+       
+       
+     }
+     else{
+        System.out.println("Then go away");
+     }
+
+  }
+
+}
+
+
